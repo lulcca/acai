@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/eslint',
+    '@nuxt/fonts',
     '@nuxt/test-utils/module',
     '@nuxt/ui',
     '@nuxtjs/tailwindcss',
