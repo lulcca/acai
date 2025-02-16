@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Components > TheHeader > should match the snapshot 1`] = `
+"<header class="gap-2 grid h-full place-items-center w-full">
+  <h1 class="font-major text-8xl uppercase"> Controle de açaí </h1>
+  <p> teste sua sorte e faça o atrasado pagar </p>
+</header>"
+`;
