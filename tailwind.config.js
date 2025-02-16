@@ -2,7 +2,11 @@ export default {
   content: [],
   plugins: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        major: 'Londrina Solid',
+        minor: 'Sour Gummy',
+      },
+    },
   },
 };
-

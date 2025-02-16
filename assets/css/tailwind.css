@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { 
+  @apply
+  scroll-smooth
+}
+
+body {
+  @apply
+  font-minor overscroll-y-none
+  bg-fuchsia-200 dark:bg-fuchsia-950
+  text-fuchsia-950 dark:text-fuchsia-200
+}
+
+.inverted-section {
+  @apply
+  bg-fuchsia-950 dark:bg-fuchsia-200
+  text-fuchsia-200 dark:text-fuchsia-950
+}
