@@ -3,6 +3,10 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  icon: {
+    serverBundle: 'local',
+  },
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',

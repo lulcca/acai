@@ -2,15 +2,6 @@
 const { repository } = useRuntimeConfig().public;
 
 const colorMode = useColorMode();
-
-const isDark = computed({
-  get () {
-    return colorMode.value === 'dark';
-  },
-  set () {
-    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark';
-  },
-});
 </script>
 
 <template>
@@ -49,25 +40,13 @@ const isDark = computed({
       variant="outline"
     />
 
-    <ClientOnly>
-      <UButton
-        :key="colorMode.value"
-        :icon="isDark ? 'i-mdi-moon-waning-crescent' : 'i-mdi-white-balance-sunny'"
-        aria-label="tema"
-        class="[grid-area:D]"
-        size="xl"
-        variant="outline"
-        @click="isDark = !isDark"
-      />
-
-      <template #fallback>
-        <UButton
-          class="[grid-area:D]"
-          loading
-          size="xl"
-          variant="outline"
-        />
-      </template>
-    </ClientOnly>
+    <UButton
+      aria-label="tema"
+      class="[grid-area:D]"
+      icon="i-mdi-theme-light-dark"
+      size="xl"
+      variant="outline"
+      @click="colorMode.preference = (colorMode.value === 'dark') ? 'light' : 'dark'"
+    />
   </nav>
 </template>

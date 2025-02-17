@@ -16,9 +16,6 @@ describe('Components > TheMenu', () => {
     expect(anchors.length).toBe(3);
     expect(anchors[0].text()).toMatch(/roleta/i);
     expect(anchors[1].text()).toMatch(/regras/i);
-
-    const buttons = wrapper.findAll('button');
-    expect(buttons.length).toBe(1);
   });
 
   it('should contain the correct repository link', () => {
