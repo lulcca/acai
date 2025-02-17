@@ -14,7 +14,7 @@ describe('Components > TheWheel', () => {
   it('should render the participants input correctly', () => {
     const textarea = wrapper.find('textarea');
     expect(textarea.exists()).toBe(true);
-    expect(textarea.attributes('placeholder')).toBe('Ex.: primeiro nome, segundo nome, ...');
+    expect(textarea.attributes('placeholder')).toBe('Ex.: Nome, Nome, Nome, ...');
   });
 
   it('should render the clear and spin buttons', () => {

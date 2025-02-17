@@ -3,9 +3,9 @@
 exports[`Components > TheWheel > should match snapshot 1`] = `
 "<section id="roleta" class="gap-10 grid grid-cols-1 grid-rows-[auto_1fr] h-screen place-content-start place-items-start w-full">
   <h2 class="font-major text-6xl uppercase"> Roleta </h2>
-  <div class="gap-20 grid grid-cols-[2fr_3fr] h-full w-full">
-    <div class="gap-5 grid items-start content-start"><label>Participantes</label>
-      <div class="relative flex"><textarea rows="10" placeholder="Ex.: primeiro nome, segundo nome, ..." class="relative block w-full disabled:cursor-not-allowed disabled:opacity-75 focus:outline-none border-0 form-textarea rounded-md placeholder-gray-400 dark:placeholder-gray-500 text-base px-3.5 py-2.5 shadow-sm bg-white dark:bg-gray-900 text-gray-900 dark:text-white ring-1 ring-inset ring-gray-300 dark:ring-gray-700 focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 resize-none" value=""></textarea></div>
+  <div class="gap-20 grid grid-cols-[1fr_auto] h-full w-full">
+    <div class="gap-5 grid grid-cols-1 place-content-start place-items-stretch w-full"><label> Participantes </label>
+      <div class="relative"><textarea rows="10" placeholder="Ex.: Nome, Nome, Nome, ..." class="relative block w-full disabled:cursor-not-allowed disabled:opacity-75 focus:outline-none border-0 form-textarea rounded-md placeholder-gray-400 dark:placeholder-gray-500 text-base px-3.5 py-2.5 shadow-sm bg-white dark:bg-gray-900 text-gray-900 dark:text-white ring-1 ring-inset ring-gray-300 dark:ring-gray-700 focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 resize-none" value=""></textarea></div>
       <div class="flex justify-between"><button type="button" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-base gap-x-2.5 px-3.5 py-2.5 hover:bg-primary-50 disabled:bg-transparent aria-disabled:bg-transparent dark:hover:bg-primary-950 dark:disabled:bg-transparent dark:aria-disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 text-fuchsia-900 dark:text-fuchsia-100 inline-flex items-center">
           <!--v-if--> Limpar
           <!--v-if-->
@@ -14,12 +14,10 @@ exports[`Components > TheWheel > should match snapshot 1`] = `
           <!--v-if-->
         </button></div>
     </div>
-    <figure class="grid justify-items-center w-full h-3/4">
-      <div class="flex h-full relative rounded-full w-max shadow-2xl">
-        <div class="absolute flex justify-center top-0 w-full z-10"><span class="iconify i-tdesign:arrow-triangle-down-filled bg-gray-100 h-16 w-16" aria-hidden="true"></span></div><svg aria-label="Roleta de Descontos" class="relative w-full h-[260px] sm:h-[300px] md:h-[380px] lg:h-full" viewBox="-200 -200 400 400">
-          <g style="transform: rotate(0deg);"></g>
-        </svg>
-      </div>
+    <figure class="block relative rounded-full shadow-2xl h-[300px] lg:h-[600px] w-[300px] lg:w-[600px]">
+      <div class="absolute flex justify-center top-0 w-full z-10"><span class="iconify i-tdesign:arrow-triangle-down-filled bg-gray-100 h-16 w-16" aria-hidden="true"></span></div><svg aria-label="roleta de nomes" class="h-full relative w-full" viewBox="-200 -200 400 400">
+        <g style="transform: rotate(0deg);"></g>
+      </svg>
     </figure>
   </div>
 </section>"

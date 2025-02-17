@@ -13,11 +13,11 @@
     </div>
 
     <main class="gap-10 grid">
-      <UContainer>
+      <UContainer class="w-full">
         <TheWheel class="pt-28" />
       </UContainer>
 
-      <UContainer>
+      <UContainer class="w-full">
         <TheRules class="pt-28" />
       </UContainer>
     </main>

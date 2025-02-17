@@ -55,32 +55,36 @@ function spin() {
 </script>
 
 <template>
-  <figure class="grid justify-items-center w-full">
-    <div class="flex h-full relative rounded-full w-max shadow-2xl">
-      <div class="absolute flex justify-center top-0 w-full z-10">
-        <UIcon
-          name="i-tdesign-arrow-triangle-down-filled"
-          class="bg-gray-100 h-16 w-16"
-        />
-      </div>
-
-      <svg
-        aria-label="Roleta de Descontos"
-        class="relative w-full h-[260px] sm:h-[300px] md:h-[380px] lg:h-full"
-        viewBox="-200 -200 400 400"
-      >
-        <g :style="{ transform: `rotate(${currentRotation}deg)` }">
-          <template v-for="(slice, index) in props.slices" :key="index">
-            <RouletteSlice
-              :content="slice.content"
-              :index="index"
-              :size="slice.size"
-              :total="totalSlices"
-              :accumulated-size="props.slices.slice(0, index).reduce((sum, s) => sum + s.size, 0)"
-            />
-          </template>
-        </g>
-      </svg>
+  <figure
+    class="
+      block relative rounded-full shadow-2xl
+      h-[300px] lg:h-[600px]
+      w-[300px] lg:w-[600px]
+    "
+  >
+    <div class="absolute flex justify-center top-0 w-full z-10">
+      <UIcon
+        name="i-tdesign-arrow-triangle-down-filled"
+        class="bg-gray-100 h-16 w-16"
+      />
     </div>
+
+    <svg
+      aria-label="roleta de nomes"
+      class="h-full relative w-full"
+      viewBox="-200 -200 400 400"
+    >
+      <g :style="{ transform: `rotate(${currentRotation}deg)` }">
+        <template v-for="(slice, index) in props.slices" :key="index">
+          <RouletteSlice
+            :content="slice.content"
+            :index="index"
+            :size="slice.size"
+            :total="totalSlices"
+            :accumulated-size="props.slices.slice(0, index).reduce((sum, s) => sum + s.size, 0)"
+          />
+        </template>
+      </g>
+    </svg>
   </figure>
 </template>

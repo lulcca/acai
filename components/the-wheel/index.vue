@@ -34,17 +34,18 @@ const name_array = computed<{ content: string; size: number }[]>(() => {
       Roleta
     </h2>
 
-    <div class="gap-20 grid grid-cols-[2fr_3fr] h-full w-full">
-      <div class="gap-5 grid items-start content-start">
-        <label>Participantes</label>
+    <div class="gap-20 grid grid-cols-[1fr_auto] h-full w-full">
+      <div class="gap-5 grid grid-cols-1 place-content-start place-items-stretch w-full">
+        <label>
+          Participantes
+        </label>
 
         <UTextarea
           v-model="names"
           :maxrows="10"
           :rows="10"
           autoresize
-          class="flex"
-          placeholder="Ex.: primeiro nome, segundo nome, ..."
+          placeholder="Ex.: Nome, Nome, Nome, ..."
           size="xl"
         />
 
@@ -71,7 +72,6 @@ const name_array = computed<{ content: string; size: number }[]>(() => {
         ref="roulette"
         :key="name_array.length"
         :slices="name_array"
-        class="h-3/4"
         @result="(result: string) => toast.add({ description: `${result} ganhou um açaí.`, title: 'Parabéns! 😋' })"
       />
     </div>
