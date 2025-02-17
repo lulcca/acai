@@ -52,7 +52,7 @@ const isDark = computed({
     <ClientOnly>
       <UButton
         :key="colorMode.value"
-        :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
+        :icon="isDark ? 'i-mdi-moon-waning-crescent' : 'i-mdi-white-balance-sunny'"
         aria-label="tema"
         class="[grid-area:D]"
         size="xl"
