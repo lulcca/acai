@@ -12,6 +12,8 @@ export default defineNuxtConfig({
   ],
 
   runtimeConfig: {
-    repository: '',
+    public: {
+      repository: 'https://github.com/lulcca/acai',
+    },
   },
 });

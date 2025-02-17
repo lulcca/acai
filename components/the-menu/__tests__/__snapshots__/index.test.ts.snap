@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Components > TheMenu > should match snapshot 1`] = `
+"<nav class="gap-4 grid h-full place-items-center w-full [grid-template-areas:'A_B_._C_D'] [grid-template-columns:auto_auto_1fr_auto_auto]"><a class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-base gap-x-2.5 px-3.5 py-2.5 ring-1 ring-inset ring-current disabled:bg-transparent aria-disabled:bg-transparent dark:disabled:bg-transparent dark:aria-disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 text-fuchsia-100 dark:text-fuchsia-900 hover:bg-primary dark:hover:bg-primary inline-flex items-center font-major uppercase [grid-area:A]" aria-label="roleta" href="#roleta">
+    <!--v-if--><span class="">roleta</span>
+    <!--v-if-->
+  </a><a class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-base gap-x-2.5 px-3.5 py-2.5 ring-1 ring-inset ring-current disabled:bg-transparent aria-disabled:bg-transparent dark:disabled:bg-transparent dark:aria-disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 text-fuchsia-100 dark:text-fuchsia-900 hover:bg-primary dark:hover:bg-primary inline-flex items-center font-major uppercase [grid-area:B]" aria-label="regras" href="#regras">
+    <!--v-if--><span class="">regras</span>
+    <!--v-if-->
+  </a><a class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-base gap-x-2.5 p-2.5 ring-1 ring-inset ring-current disabled:bg-transparent aria-disabled:bg-transparent dark:disabled:bg-transparent dark:aria-disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 text-fuchsia-100 dark:text-fuchsia-900 hover:bg-primary dark:hover:bg-primary inline-flex items-center [grid-area:C]" aria-label="repositorio" href="https://github.com/lulcca/acai" rel="noopener noreferrer" target="_blank"><span class="iconify i-mdi:github flex-shrink-0 h-6 w-6" aria-hidden="true"></span>
+    <!--v-if-->
+    <!--v-if-->
+  </a><button type="button" disabled="" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-base gap-x-2.5 p-2.5 ring-1 ring-inset ring-current disabled:bg-transparent aria-disabled:bg-transparent dark:disabled:bg-transparent dark:aria-disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 text-fuchsia-100 dark:text-fuchsia-900 hover:bg-primary dark:hover:bg-primary inline-flex items-center [grid-area:D]"><span class="iconify i-heroicons:arrow-path-20-solid flex-shrink-0 h-6 w-6 animate-spin" aria-hidden="true"></span>
+    <!--v-if-->
+    <!--v-if-->
+  </button></nav>"
+`;
