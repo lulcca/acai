@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative">
     <div class="inverted-section">
       <UContainer class="py-5">
         <TheHeader />
@@ -11,5 +11,13 @@
         <TheMenu />
       </UContainer>
     </div>
+
+    <main class="gap-10 grid">
+      <UContainer>
+        <TheWheel class="pt-28" />
+      </UContainer>
+    </main>
+
+    <UNotifications />
   </div>
 </template>
