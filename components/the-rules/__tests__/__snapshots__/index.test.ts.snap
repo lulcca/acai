@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Components > TheRules > should match snapshot 1`] = `
+"<section id="regras" class="gap-10 grid grid-cols-1 grid-rows-[auto_1fr] h-screen place-content-start place-items-start w-full">
+  <h2 class="font-major text-6xl uppercase"> Regras </h2>
+  <ol class="list-decimal">
+    <li class="text-lg">Regra 1</li>
+    <li class="text-lg">Regra 2</li>
+    <li class="text-lg">Regra 3</li>
+  </ol>
+</section>"
+`;

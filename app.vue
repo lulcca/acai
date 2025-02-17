@@ -16,6 +16,10 @@
       <UContainer>
         <TheWheel class="pt-28" />
       </UContainer>
+
+      <UContainer>
+        <TheRules class="pt-28" />
+      </UContainer>
     </main>
 
     <UNotifications />
