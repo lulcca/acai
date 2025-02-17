@@ -1,5 +1,5 @@
 <template>
-  <footer class="grid opacity-75 place-items-start w-full">
+  <footer class="grid opacity-75 place-items-start">
     <span class="font-major">
       © 2025 lulcca
     </span>
