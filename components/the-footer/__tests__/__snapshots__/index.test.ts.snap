@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Components > TheFooter > should match snapshot 1`] = `"<footer class="grid opacity-75 place-items-start w-full"><span class="font-major"> © 2025 lulcca </span></footer>"`;

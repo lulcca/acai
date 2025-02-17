@@ -22,6 +22,10 @@
       </UContainer>
     </main>
 
+    <UContainer>
+      <TheFooter class="absolute bottom-0 py-5" />
+    </UContainer>
+
     <UNotifications />
   </div>
 </template>
